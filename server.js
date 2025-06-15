@@ -6,7 +6,7 @@ const app = express();
 // Firebase Admin SDK initialization
 const admin = require('firebase-admin');
 // IMPORTANT: Replace with the actual path to your downloaded Firebase service account JSON file
-const serviceAccount = require('./path/to/your-service-account-key.json');
+const serviceAccount = require('./torat-yose-firebase-adminsdk-fbsvc-b72c092c90.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
